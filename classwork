@@ -1,0 +1,20 @@
+python3
+Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> firstname="Yvonne"
+>>> surname="Katama"
+>>> yearofbirth=1998
+>>> currentyear=2021
+>>> age=currentyear-yearofbirth
+>>> age
+23
+>>> school="BeautyPoint"
+>>> country="Kenya"
+>>> fees=45000
+>>> payment=20000
+>>> balance=fees-payment
+>>> balance
+25000
+>>> print(f"Hello {firstname} {surname}, from {country.upper()} welcome to {school.upper()} school. Your fee balance is {balance} and your age is {age}.")
+Hello Yvonne Katama, from KENYA welcome to BEAUTYPOINT school. Your fee balance is 25000 and your age is 23.
