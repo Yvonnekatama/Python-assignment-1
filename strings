@@ -1,0 +1,18 @@
+>>> s="I love the python world"
+>>> s[11:17].upper()
+'PYTHON'
+>>> print("I love the \n python world.")
+I love the 
+ python world.
+>>> print("I love the pytho\t world.")
+I love the pytho	 world.
+>>> s.index("I")
+0
+>>> s.index("l")
+2
+>>> s.index("t")
+7
+>>> s.index("p")
+11
+>>> s.index("w")
+18
